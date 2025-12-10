@@ -1,0 +1,22 @@
+name: AdminCode
+main: me.yourname.admincode.AdminCodePlugin
+version: 1.0.0
+api-version: 1.20
+author: You
+description: Giftcode plugin with GUI editor
+
+commands:
+  admincode:
+    description: Admin quản lý giftcode
+    usage: /admincode <args>
+    aliases: [ac]
+    permission: admincode.admin
+
+  code:
+    description: Người chơi dùng mã giftcode
+    usage: /code <mã>
+
+permissions:
+  admincode.admin:
+    description: Quyền quản lý tất cả giftcode
+    default: op

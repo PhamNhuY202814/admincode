@@ -1,0 +1,13 @@
+prefix: "&6[AdminCode]&r "
+
+no_permission: "&cBạn không có quyền!"
+not_player: "&cLệnh này chỉ dùng trong game!"
+code_not_found: "&cMã này không tồn tại!"
+code_used: "&cBạn đã dùng mã này rồi!"
+code_success: "&aBạn đã nhận phần thưởng từ mã &e%code%&a!"
+gui_open: "&aĐã mở GUI chỉnh sửa mã &e%code%"
+
+# bản quyền của bạn
+copyright:
+  owner: "Plugin by pnhuy08 / Custom for BoxPvP Server"
+  warn: "&cKhông được chỉnh sửa và phân phối lại plugin này!"

@@ -1,0 +1,19 @@
+# AdminCode config
+codes:
+  welcome:
+    commands:
+      - "give {player} diamond 3"
+      - "money give {player} 1000"
+    items:
+      - "GOLD_INGOT:5"
+      - "DIAMOND:1"
+    use-gui: false
+
+  lucky:
+    commands:
+      - "say {player} got lucky!"
+    items:
+      - "EMERALD:2"
+    use-gui: true
+
+# open-gui.<uuid> được lưu tạm khi player mở GUI
